@@ -1,0 +1,205 @@
+body {
+	font-family: Arial, helvetica, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+p {
+	display: inline-block;
+}
+
+.iconos {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 10px;
+ 	margin: 0 5px;
+
+}
+
+.ul-mobile {
+	display: none;
+}
+
+/**** HEADER - Style ****/
+
+header {
+	background-color: #1a7ca9;
+	color: white;
+}
+
+header .menu {
+	float: right;
+	padding: 30px 0px;
+	font-size: 30px;
+}
+
+header img {
+	padding: 30px 0;
+}
+
+header h1 {
+	padding: 30px 0;
+	font-size: 40px;
+}
+
+/**** SECTION - Video ****/
+.video {
+	padding: 20px 0;
+}
+
+.video h2 {
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.video ul {
+	text-decoration: none;
+	float: right;
+}
+
+.video li {
+	display: inline-block;
+}
+
+.video .iconos {
+	background-color: #f1f1f1;
+}
+
+.slide-desc {
+	padding: 30px 0;
+	width: 70%;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slide-desc-bottom {
+	border-top: 1px solid #e3e3e3;
+	padding: 50px 0;
+}
+
+.slide-desc-aside {
+	padding: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 29.6%;
+}
+
+/**** SECTION - Contact ****/
+.contact {
+	text-align: center;
+	padding: 30px 0;
+	background-color: #313131;
+	color: grey;
+}
+
+.contact .iconos {
+	padding: 10px 0;
+	margin: 0 10px;
+}
+
+.contact .left {
+	float: left;
+}
+
+.contact ul {
+	text-decoration: none;
+	float: right;
+}
+
+.contact li, .copyright li  {
+	display: inline-block;
+}
+
+.contact p {
+	padding-left: 10px;
+}
+
+/**** SECTION - Copyright ****/
+.copyright {
+	overflow: auto;
+	padding: 20px 0;
+	background-color: #2d2d2d;
+	color: grey;
+}
+
+.copyright ul {
+	text-decoration: none;
+}
+
+.copyright li {
+	margin-right: 20px;
+}
+
+.copyright p {
+	display: inline-block;
+	float: right;
+}
+
+
+
+/*********** Mediaqueries **********/
+@media screen and (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+
+	header .menu {
+		display: none;
+	}
+
+	.slide-desc {
+		width: 100%;
+		text-align: center; 
+	}
+	.slide-desc-aside {
+		display: none;
+	}
+
+	.ul-desk {
+		display: none;
+	}
+
+	.ul-mobile {
+		display: block;
+	}
+	
+	.video ul {
+		padding: 30px 0;
+		float: none;
+	}
+	
+	.slide-desc-bottom{
+		display:none;
+	}
+
+	.contact .left {
+		float: none;
+	}
+	
+	.contact img {
+		display: block;
+		padding: 25px 0;
+    margin: auto
+	}
+
+	.copyright {
+		display: none;
+	}
+
+}
+
+
+
